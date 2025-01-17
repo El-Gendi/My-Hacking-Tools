@@ -1,6 +1,8 @@
 
 !!! THIS REPOSITORY IS FOR EDUCATIONAL PURPOSES ONLY !!!
---- last edited on: 17-01-2025 -------------------------
+--- 
+last edited on: 17-01-2025 
+---
 
 Welcome to my repository of novice hacking programs! This is a collection of scripts, tools, and experiments that I have created while learning and exploring the world of hacking, cybersecurity, and programming. These programs are intended for educational purposes only and should be used responsibly and ethically.
 
