@@ -27,9 +27,9 @@ def print_result(results_list):
         print(f"{client['ip']}\t\t{client['mac']}")
 
 args = get_arguments()
-username = getpass.getuser()
-print("----------------------------------")
-print("NetScan requested by:\t" + username)
-print("----------------------------------")
+# username = getpass.getuser()
+# print("----------------------------------")
+# print("NetScan requested by:\t" + username)
+# print("----------------------------------")
 scan_result = scan(args.target)
 print_result(scan_result)
