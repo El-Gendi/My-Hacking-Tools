@@ -17,9 +17,10 @@ to learn in parallel.
 contents:
 1- commandline MAC address changer
 2- Network Scanner for IP-Mac listing
+3- ARP spoofing tool (testing)
 
 to be added:
-- portscanner, Spoofer, Packet Sniffer, Vulnerability scanner and more.
+- portscanner, Packet Sniffer, Vulnerability scanner and more.
 
 ----------------
 requirements:
