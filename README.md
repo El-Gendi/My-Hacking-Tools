@@ -15,13 +15,13 @@ to learn in parallel.
 
 ----------------
 contents:
-1- commandline MAC address changer (improved)
+1- commandline MAC address changer 
 2- Network Scanner for IP-Mac listing
-3- ARP spoofing tool (testing)
-4- Packet-Sniffing tool (shelved)
+3- ARP spoofing tool 
+4- Packet-Sniffing tool (simple/unfinished)
 
 to be added:
-- portscanner,  Vulnerability scanner and more.
+- portscanner, Vulnerability scanner and more.
 
 ----------------
 requirements:
