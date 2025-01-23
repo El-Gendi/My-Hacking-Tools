@@ -42,6 +42,6 @@ try:
 except KeyboardInterrupt:
 	print("\n[+] Exiting program...")
 	print("\n[+] Resetting ARP Tables...")
-#	restore(target_ip, gateway_ip)
-#	restore(gateway_ip, target_ip)
+	restore(target_ip, gateway_ip)
+	restore(gateway_ip, target_ip)
 	print("\n[+] Process complete.")
