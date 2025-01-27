@@ -6,6 +6,7 @@
 import scapy.all as scapy
 import argparse
 import getpass
+from termcolor import colored
 
 def get_arguments():
     parser = argparse.ArgumentParser()
@@ -25,14 +26,16 @@ def scan(ip):
     return clients_list
 
 def print_result(results_list):
-    print("IP\t\t\tMAC Address\n----------------------------------")
+    print(colored("\nIP\t\t\tMAC Address", "blue"))
+    print(colored("----------------------------------", "cyan"))
     for client in results_list:
-        print(f"{client['ip']}\t\t{client['mac']}")
+        print(f"{colored(client['ip'], 'green')}\t\t{colored(client['mac'], 'yellow')}")
 
 args = get_arguments()
 username = getpass.getuser()
-print("----------------------------------")
-print("NetScan requested by:\t" + username)
-print("----------------------------------")
+print(colored("\n----------------------------------", "cyan"))
+print(colored(f"NetScan requested by:", "magenta") + colored(f"\t{username}", "yellow"))
+print(colored("----------------------------------", "cyan"))
 scan_result = scan(args.target)
 print_result(scan_result)
+print(colored("\n[+] Scan completed!", "green"))
