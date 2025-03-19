@@ -19,7 +19,8 @@ contents:
 2- Network Scanner for IP-Mac listing
 3- ARP spoofing tool 
 4- Packet-Sniffing tool. (simple/unfinished)
-5- Port Scanner. (testing)
+5- Packet Interceptor. (simple/unfinished)
+6- Port Scanner. (testing)
 
 to be added:
 - Vulnerability scanner and more.
